@@ -13,6 +13,10 @@ File Encoding         : 65001
 Date: 2017-12-07 11:34:34
 */
 
+drop database if exists auth_control;
+create database auth_control;
+use auth_control;
+
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
